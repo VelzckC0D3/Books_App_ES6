@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Awesome book app">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <title>Velzck's Awesome Book</title>
+</head>
+
+<body class="columnCenter">
+    <header class="header">
+        <p id="navTitle">Awesome Books</p>
+        <ul class="navUl">
+            <li class="navLi columnCenter"><a class="navLink list columnCenter" href="#">List</a></li>
+            <li class="navLi columnCenter"><a class="navLink addButton columnCenter" href="#">Add New</a></li>
+            <li class="navLi columnCenter"><a class="navLink contact columnCenter" href="#">Contact</a></li>
+        </ul>
+    </header>
+    <span id="date-time"></span>
+    <main class="main columnCenter">
+        <div class="awesomeBooksCont columnCenter">
+            <div class="awesomeBooks">
+                <h2>Awesome Books List</h2>
+                <ul id="books"></ul>
+            </div>
+            <form id="createBook" class="form columnCenter switch">
+                <h2>Add a new book</h2>
+                <input class="input" type="text" id="title" placeholder="title" required /><br />
+                <input class="input" type="text" id="author" placeholder="author" required /><br />
+                <button type="button" id="addButton">Add</button>
+            </form>
+            <div class="contactCont switch">
+                <p>Do you have any questions or you just want to say "hello"? <br> You can reach out to us!</p>
+                <ul class="contactUl">
+                    <li class="contactLi">Our e-mail: <a
+                            href="mailto:alejandro.velzck@gmail.com">Alejandro.velzck@gmail.com</a></li>
+                    <li class="contactLi">Our phone number: <a href="tel:+57 300123456">300123456</a></li>
+                    <li class="contactLi">Our street address: <a
+                            href="https://www.google.com/maps/place/Medell%C3%ADn,+Antioquia/data=!4m2!3m1!1s0x8e4428dfb80fad05:0x42137cfcc7b53b56?sa=X&ved=2ahUKEwiLhrm4__L9AhX_fDABHff2BWcQ8gF6BAgIEAI"
+                            target="_blank" rel="noopener noreferrer">Medellín, Colombia</a></li>
+                </ul>
+            </div>
+            <p id="copyright">Copyright ...</p>
+        </div>
+    </main>
+    <script type="module" src="./modules/library.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

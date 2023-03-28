@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  font-family: "Montserrat", sans-serif;
+}
+
+.columnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  border: 3px solid black;
+  justify-content: space-around;
+}
+
+#date-time {
+  width: 95vw;
+  text-align: right;
+  padding: 1rem 0;
+  -webkit-text-stroke: 0.5px;
+}
+
+#navTitle {
+  -webkit-text-stroke: 0.7px;
+}
+
+.switch {
+  display: none !important;
+}
+
+.awesomeBooksCont {
+  width: 25rem;
+  padding: 1rem;
+  height: auto;
+  justify-content: space-evenly;
+}
+
+.navUl {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navLi {
+  height: 100%;
+  width: auto;
+  padding: 0 1rem;
+}
+
+.navLi:nth-child(2) {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.navLink {
+  height: 100%;
+}
+
+.navLink,
+.navLink:link,
+.navLink:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#books {
+  padding: 0.5rem 1rem;
+  margin: 0;
+  border: 2px solid black;
+}
+
+.booksLi {
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.booksLi:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.096);
+}
+
+#createBook {
+  gap: 0;
+  width: 25rem;
+}
+
+.input {
+  width: 95%;
+  margin: 0;
+  padding: 0;
+}
+
+#addButton {
+  margin: 0 1rem;
+  justify-self: flex-end !important;
+  align-self: flex-end;
+}
+
+#copyright {
+  width: 95%;
+  padding: 0.5rem 1rem;
+  -webkit-text-stroke: 0.7px;
+  border: 2px solid black;
+}
