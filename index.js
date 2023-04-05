@@ -10,3 +10,4 @@ library.showBooks();
 
 const nav = new Navigation();
 nav.changePage();
+nav.showBooks();

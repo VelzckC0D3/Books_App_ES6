@@ -4,6 +4,23 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    360deg,
+    hsla(197, 14%, 57%, 1) 0%,
+    hsla(192, 17%, 94%, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: flex-start !important;
+  margin: 0;
+}
+
 .columnCenter {
   display: flex;
   flex-direction: column;
@@ -12,7 +29,7 @@
 }
 
 .header {
-  width: 95vw;
+  width: 100vw;
   display: flex;
   align-items: center;
   border: 3px solid black;
@@ -36,9 +53,13 @@
 
 .awesomeBooksCont {
   width: 25rem;
-  padding: 1rem;
+  padding: 2rem;
   height: auto;
   justify-content: space-evenly;
+  border-radius: 50px;
+  background: white;
+  box-shadow: 20px 20px 60px #747474, -20px -20px 60px #ffffff;
+  border: 2px solid black;
 }
 
 .navUl {

@@ -6,6 +6,7 @@ export default class Navigation {
     this.bookList = document.querySelector('.awesomeBooks');
     this.createBook = document.querySelector('.form');
     this.contact = document.querySelector('.contactCont');
+    this.books = document.querySelector('#books');
 
     this.listButton.addEventListener('click', () => {
       this.changePage(this.bookList, this.createBook, this.contact);
