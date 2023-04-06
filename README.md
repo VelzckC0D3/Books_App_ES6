@@ -69,7 +69,7 @@ Introducing my first Javascript app where you are able to manage the books using
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://user-images.githubusercontent.com/92229666/226733217-1fe06995-d55a-42a6-bc57-2ba931a93c52.mp4
+https://user-images.githubusercontent.com/92229666/230481477-09592315-6ff0-428c-a746-d2a6de205eb9.mp4
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
